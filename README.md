@@ -19,7 +19,7 @@ This project uses an **ESP32**, **RFID module (MFRC522)**, and **Google Apps Scr
 3. Data is sent using a Google Apps Script deployed as a web app.
 
 ## Code
-Main code is in `rfid`.
+Main code is in `rfid_logger.ino`.
 Gogle Apps Scripts is in `google_apps_scripts.ino`.
 
 ## Configuration
