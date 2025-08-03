@@ -39,9 +39,10 @@ Gogle Apps Scripts is in `google_apps_scripts.ino`.
 - Under Execute as: Select Me
 - Under Who has access: Select Anyone
 - Click Deploy
-- Copy the generated web app URL
+- Copy the generated web app URL and copy the Sheets ID as well
 - Now replace the url in the `rfid_logger.ino` code
 - It will look something like this (const char* googleScriptURL = "https://script.google.com/macros/s/AKfycbw12345.../exec";)
+- Now replace the Ssheets ID in the `google_apps_scripts.ino` code
 
 
 ## Circuit Diagram
