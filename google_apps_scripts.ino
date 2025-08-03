@@ -6,7 +6,7 @@ function doGet(e) {
     return ContentService.createTextOutput("Missing parameters");
   }
 
-  var sheet = SpreadsheetApp.openById("11GKvGr9y3SPhQHGytvPuQFFS7Usc_SpUMTbpyHFJuns").getActiveSheet();
+  var sheet = SpreadsheetApp.openById("Your Sheets ID").getActiveSheet();
 
   // Append UID, Name, and Timestamp
   sheet.appendRow([new Date(), uid, name]);
