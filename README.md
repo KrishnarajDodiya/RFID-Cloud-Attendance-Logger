@@ -23,16 +23,14 @@ Main code is in `rfid_logger.ino`.
 Gogle Apps Scripts is in `google_apps_scripts.ino`.
 
 ## Configuration
-- Set your WiFi credentials in `ssid` and `password`.
+### Configuration in esp32's code(rfid_logger.ino
+- Set your WiFi credentials in `ssid` and `password`.(i.e. replace your wifi credentials)
 - Replace the `googleScriptURL` with your own Google Apps Script Web App URL.
 - Update the `users[]` array with your card UIDs and names.
+### Configuration for Google sheets
+- 
 
-## To Do
-- Add date and time logging
-- Use EEPROM or SD card for local backup
-- Add a better web dashboard
-
-## Screenshots
+## Circuit Diagram
 *(You can add photos or circuit diagrams here later)*
 
 ## License
