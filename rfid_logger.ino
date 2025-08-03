@@ -119,7 +119,7 @@ void loop() {
     lcd.setCursor(0, 0); lcd.print("Unknown Card");
     lcd.setCursor(0, 1); lcd.print("Try Again");
     sendToGoogleSheets(rfidUID, "Unknown");
-  }
+  };
 
   delay(2000);
   defaultlcd();
